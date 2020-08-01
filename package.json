@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:watch": "lerna run build:watch --stream --parallel"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
